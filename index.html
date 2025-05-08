@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Montanhas do Paraná</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+    <script>
+        var renderPage = true;
+
+        if (navigator.userAgent.indexOf('MSIE') !== -1
+            || navigator.appVersion.indexOf('Trident/') > 0) {
+            alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+            renderPage = false;
+        }
+    </script>
+
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <div class="container">
+        <section class="tm-section-head" id="top">
+            <header id="header" class="text-center tm-text-gray">
+                <h1>MONTANHAS NO PARANÁ</h1>
+                <p>VISITE E ESCALE AS MONTANHAS DO NOSSO ESTADO</p>
+            </header>
+
+            <nav class="navbar narbar-light">
+                <a class="navbar-brand tm-text-gray" href="#">
+                    Menu
+                </a>
+                <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon tm-fa-toggler-icon"></i>
+                    </span>
+                </button>
+                <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#top">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#tm-section-2">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="#tm-section-6">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="navbar navbar-default navbar-fixed-top">
+                <a href="/index.html" class="navbar-brand"></a>
+                <botton class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </botton>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="mydropdown">
+
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">info</a>
+                    </li>
+                    <li>
+                        <a href="#">contato</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row" id="tm-section-1">
+            <div class="col-lg-12 tm-slider-col">
+                <div class="tm-img-slider">
+                    <div class="tm-img-slider-item" href="img/gallery-img-01.jpg">
+                        <p class="tm-slider-caption">Pico Paraná.</p>
+                        <img src="img/picoparana.jpg" alt="Image" class="tm-slider-img">
+                    </div>
+                    <div class="tm-img-slider-item" href="img/gallery-img-02.jpg">
+                        <p class="tm-slider-caption">Pico Marumbi.</p>
+                        <img src="img/picomarumbi.jpg" alt="Image" class="tm-slider-img">
+                    </div>
+                    <div class="tm-img-slider-item" href="img/gallery-img-03.jpg">
+                        <p class="tm-slider-caption">Pico Caratuva.</p>
+                        <img src="img/picocaratuva.avif" alt="Image" class="tm-slider-img">
+                    </div>
+                    <div class="tm-img-slider-item" href="img/gallery-img-04.jpg">
+                        <p class="tm-slider-caption">Pico Itapiroca.</p>
+                        <img src="img/picoitapiroca.avif" alt="Image" class="tm-slider-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tm-section-2 tm-section-mb" id="tm-section-2">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
+
+                    <h2>Montanhismo no Paraná</h2>
+                    <p>O montanhismo no Paraná cresce com a beleza da Serra do Mar, que abriga trilhas e o Pico Paraná, o mais alto do sul do Brasil. A atividade une aventura, natureza e superação, atraindo quem busca experiências únicas nas montanhas. </p>
+
+                    <a href="#tm-section-3" class="btn tm-btn-pad-2 float-right">Learn More</a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
+                    <h2>Esportes em Montanhas</h2>
+                    <p> Esportes de montanha reúnem aventura, resistência e conexão com a natureza. Atividades como escalada, trilha, mountain bike e montanhismo desafiam os limites físicos e mentais, oferecendo cenários impressionantes e ar puro. Mais do que prática esportiva, são formas de vivenciar a liberdade e a beleza das alturas.
+                    </p>
+
+                    <a href="#tm-section-4" class="btn tm-btn-pad-2 float-right">Learn More</a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <h2>Turismo em Montanhas</h2>
+                    <p> O montanhismo como turismo é uma forma única de viajar, unindo aventura, natureza e cultura local. Destinos de montanha atraem turistas em busca de trilhas, picos desafiadores e paisagens deslumbrantes, promovendo o ecoturismo e incentivando o respeito ao meio ambiente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tm-section-3 tm-section-mb" id="tm-section-3">
+            <div class="row">
+                <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
+                    <div class="image">
+                        <img src="img/montanhismoesporte.jpg" class="img-fluid" />
+                    </div>
+                    <div class="tm-box-3">
+                        <h2>Paraná</h2>
+                        <p> O turismo de montanhas no Paraná oferece paisagens deslumbrantes e contato direto com a natureza. Com trilhas, cachoeiras e picos como o Pico Paraná, a região atrai viajantes em busca de aventura, descanso e experiências autênticas.</p>
+                        <div class="text-center">
+                            <a href="#tm-section-5" class="btn btn-big">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 tm-2col-r">
+                    <div class="image">
+                        <img src="img/ciclismonamontanha.webp" class="img-fluid" />
+                    </div>
+                    <div class="tm-box-3">
+                        <header>
+                            <h2>Esportes</h2>
+                        </header>
+                        <p> Praticar esportes na montanha é uma forma envolvente de se exercitar em meio à natureza. Atividades como trilhas, escaladas e mountain bike promovem saúde, aventura e bem-estar, em cenários que inspiram superação e liberdade.</p>
+                        <div class="text-center">
+                            <a href="#tm-section-5" class="btn btn-big">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tm-section-4 tm-section-mb" id="tm-section-4">
+            <div class="row">
+
+            </div>
+        </section>
+
+        <section class="tm-section-5" id="tm-section-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="image fit">
+                        <img src="img/pessoaescalando.avif" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12 col-sm-12 pl-lg-0">
+                    <div class="media tm-media">
+                        <img src="img/pico-do-paraná-menor.jpg" class="img-responsive tm-media-img">
+                        <div class="media-body tm-box-5">
+                            <h2>Monte Roraima</h2>
+                            <p class="mb-0">O Monte Roraima impressiona com seus paredões verticais e paisagens surreais. Localizado na tríplice fronteira, é famoso por suas trilhas e formações únicas.</p>
+                        </div>
+                    </div>
+                    <div class="media tm-media">
+                        <img src="img/pedra_riscada.jpg" class="img-responsive tm-media-img">
+                        <div class="media-body tm-box-5">
+                            <h2>Pico das Agulhas Negras</h2>
+                            <p class="mb-0">Localizado no Parque Nacional de Itatiaia, o Pico das Agulhas Negras desafia aventureiros com suas rotas rochosas e vistas panorâmicas da Serra da Mantiqueira.</p>
+                        </div>
+                    </div>
+                    <div class="media tm-media">
+                        <img src="img/everest.webp" class="img-responsive tm-media-img">
+                        <div class="media-body tm-box-5">
+                            <h2>Pico do Marumbi</h2>
+                            <p class="mb-0"> O Pico do Marumbi é um clássico do montanhismo no Paraná. Suas trilhas exigentes recompensam com florestas densas e belas vistas da Serra do Mar. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tm-section-6" id="tm-section-6">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-xs-12">
+                    <div class="contact_message">
+                        <form action="" method="post" class="contact-form">
+                            <div class="row mb-2">
+                                <div class="form-group col-xl-6">
+                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
+                                </div>
+                                <div class="form-group col-xl-6 pl-xl-1">
+                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn  tm-btn-submit float-right btn-big">Send It Now</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-xs-12 tm-contact-right">
+                    <div class="tm-address-box">
+                        <h2 class="mb-4">Descubra o Paraná com a gente!</h2>
+                        <p class="mb-5">Explore paisagens incríveis com nossa empresa de turismo no Paraná. Oferecemos aventuras seguras, roteiros exclusivos e contato direto com a natureza. Viva experiências únicas em trilhas, montanhas e refúgios naturais.</p>
+                        <address>
+                            120-240 Rua das Montanhas,
+                            <br> Curitiba, Paraná,
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-5">
+            <p class="text-center">Copyright © 2025 Montanhas Paraná
+                <a rel="nofollow" href="http://www.tooplate.com/view/2103-central" target="_parent" class="tm-text-black">Central</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- load JS files -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- https://popper.js.org/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- Slick Carousel -->
+
+    <script>
+        function setCarousel() {
+            var slider = $('.tm-img-slider');
+
+            if (slider.hasClass('slick-initialized')) {
+                slider.slick('destroy');
+            }
+
+            if ($(window).width() > 991) {
+                // Slick carousel
+                slider.slick({
+                    autoplay: true,
+                    fade: true,
+                    speed: 800,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+            } else {
+                slider.slick({
+                    autoplay: true,
+                    fade: true,
+                    speed: 800,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            if (renderPage) {
+                $('body').addClass('loaded');
+            }
+
+            setCarousel();
+
+            $(window).resize(function () {
+                setCarousel();
+            });
+
+            // Close menu after link click
+            $('.nav-link').click(function () {
+                $('#mainNav').removeClass('show');
+            });
+
+            // https://css-tricks.com/snippets/jquery/smooth-scrolling/
+            // Select all links with hashes
+            $('a[href*="#"]')
+                // Remove links that don't actually link to anything
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function (event) {
+                    // On-page links
+                    if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                        &&
+                        location.hostname == this.hostname
+                    ) {
+                        // Figure out element to scroll to
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        // Does a scroll target exist?
+                        if (target.length) {
+                            // Only prevent default if animation is actually gonna happen
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: target.offset().top + 1
+                            }, 1000, function () {
+                                // Callback after animation
+                                // Must change focus!
+                                var $target = $(target);
+                                $target.focus();
+                                if ($target.is(":focus")) { // Checking if the target was focused
+                                    return false;
+                                } else {
+                                    $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                    $target.focus(); // Set focus again
+                                };
+                            });
+                        }
+                    }
+                });
+        });
+    </script>
+
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+
+</html>
